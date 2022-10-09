@@ -5,11 +5,12 @@ public class Sorter {
 		
 		System.out.println("hello");
         int[] arr = {2,1,5,4};
-        sort(arr);
+        selectionSort(arr);
         System.out.println(Arrays.toString(arr));
 	
 	}
-    static void sort(int arr[])
+	
+    static void selectionSort(int arr[])
     {
         int n = arr.length;
  
