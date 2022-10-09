@@ -7,11 +7,8 @@ public class Sorter {
         System.out.println(Arrays.toString(arr));
     }
    private static void sort(int[] arr) {
-<<<<<<< HEAD
 	   selectionSort(arr);
-=======
-       insertionSort(arr);
->>>>>>> 82a3f409c404661f689551c8997f10a4b9a30a9b
+
 	   
 }
    static void selectionSort(int[] arr){
