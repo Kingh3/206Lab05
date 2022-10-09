@@ -7,7 +7,7 @@ public class Sorter {
         System.out.println(Arrays.toString(arr));
     }
    private static void sort(int[] arr) {
-	   
+       insertionSort(arr);
 	   
 }
    static void selectionSort(int[] arr){
